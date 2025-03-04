@@ -13,13 +13,11 @@ DDoS attacks are a significant threat in today’s digital landscape. Traditiona
   - A deep learning model (`DDoSNet`) built with PyTorch.
   - Functions for data loading, preprocessing, training, and evaluation.
   - Command-line arguments to specify data partitions for simulating multiple clients.  
-  :contentReference[oaicite:0]{index=0}
 
 - **server.py**  
   Implements the federated learning server using:
   - The Flower framework’s `ServerApp` and FedAvg strategy for model aggregation.
   - Custom aggregation of client metrics to compute a weighted accuracy.  
-  :contentReference[oaicite:1]{index=1}
 
 ## Requirements
 
